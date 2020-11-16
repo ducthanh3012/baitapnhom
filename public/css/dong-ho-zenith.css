@@ -1,0 +1,30 @@
+.anh-dong-ho{
+    width: 100%;
+    position: relative;
+
+}
+.cac-slide{
+    width: 100%;
+    overflow: hidden;
+
+
+}
+.slide{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.slide.active{
+    opacity: 1;
+    visibility: visible;
+
+}
+.nut-slide img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+}
